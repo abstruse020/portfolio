@@ -4,6 +4,8 @@
   border: none;
   margin: 0px;
   padding: 5px;
+  /* top: 0px;
+  position: fixed; */
   background-color: rgba(0, 0, 0, 0.5);
 }
 .navbar_links:hover{
