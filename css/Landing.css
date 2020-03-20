@@ -1,0 +1,69 @@
+#my_photo{
+  width: 50%;
+  border-radius: 50%;
+  /* cursor: pointer; */
+}
+
+.land_cover{
+  padding-top: 50px;
+}
+.image_section{
+  height: inherit;
+  text-align: center;
+}
+
+.name_section{
+ font-size: 7rem;
+ text-transform: capitalize;
+ text-align: center;
+ color: #FFFFFF;
+}
+
+.list{
+  display: inline;
+  list-style-type: none;
+
+}
+
+.other_section{
+  font-size: 2rem;
+  color: #FFFFD0;
+  text-align: center;
+}
+
+/* for social media icons */
+.social a{
+  text-decoration: none;
+}
+.fa {
+  margin:50px 15px;
+  padding: 15px;
+  font-size: 30px;
+  width: 45px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.9;
+  color:#2c4270;
+  text-decoration: none;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-github {
+  background: #24292e;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
