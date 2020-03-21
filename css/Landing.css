@@ -6,6 +6,8 @@
 
 .land_cover{
   padding-top: 80px;
+  background-color: black;
+  padding-bottom: 80px;
 }
 .image_section{
   height: inherit;
@@ -22,7 +24,9 @@
 .list{
   display: inline;
   list-style-type: none;
-
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .other_section{
