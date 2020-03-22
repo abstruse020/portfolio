@@ -15,7 +15,7 @@
 }
 
 .name_section{
- font-size: 7rem;
+ font-size: 8.5vw;
  text-transform: capitalize;
  text-align: center;
  color: #FFFFFF;
@@ -30,7 +30,7 @@
 }
 
 .other_section{
-  font-size: 2rem;
+  font-size: 2.5vw;
   color: #FFFFD0;
   text-align: center;
 }
