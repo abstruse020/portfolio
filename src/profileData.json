@@ -23,36 +23,44 @@
     {
       "name":"Python",
       "about":"Used in implementing Deep Learning projects",
-      "link":"pythonlogo"
+      "link":"../Assets/PythonLogo.png"
     },
     {
       "name":"Android",
       "about":"Done online and offline courses and made projects",
-      "link":"../Assets/CppLogo.png"
+      "link":"../Assets/AndroidLogo.png"
     },
     {
       "name":"PHP",
       "about":"Made Departmental site of college",
-      "link":"../Assets/CppLogo.png"
+      "link":"../Assets/PhpLogo.png"
     },
     {
-      "name":"Working on React and Flask",
+      "name":"Flask",
       "about":"Learning them for personal projects",
-      "link":"../Assets/CppLogo.png"
+      "link":"../Assets/FlaskLogo.png"
+    },
+    {
+      "name":"React development",
+      "about":"started recently, Made this portfolio",
+      "link":"../Assets/ReactLogo.png"
     }
   ],
   "Projects":[
     {
       "name":"KNIT Departmental Site",
-      "about":"Created college Departmental site with 2 of my collegues"
+      "about":"Created college Departmental site with 2 of my collegues",
+      "link":"knitcse"
     },
     {
       "name":"Songs Recommendation System",
-      "about":"Developed Deep Learning application using Boltzman Machine for 3rd year project"
+      "about":"Developed Deep Learning application using Boltzman Machine for 3rd year project",
+      "link":"deeplearning"
     },
     {
       "name":"BSecure",
-      "about":"Android app to encrypt a text file and convert it into an image"
+      "about":"Android app to encrypt a text file and convert it into an image",
+      "link": "bsecure"
     }
   ]
 }
