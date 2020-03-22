@@ -1,8 +1,6 @@
 import React,{ Component } from 'react';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
-import cpplogo from '../Assets/CppLogo.png';
-import pythonlogo from '../Assets/PythonLogo.png';
 
 class Skills extends Component {
   constructor(props) {
@@ -16,22 +14,22 @@ class Skills extends Component {
 
   }
   giveImage(var1){
-    if (var1=='../Assets/CppLogo.png') {
+    if (var1==='../Assets/CppLogo.png') {
       return(require('../Assets/CppLogo.png'));
     }
-    else if(var1=='../Assets/PythonLogo.png'){
+    else if(var1==='../Assets/PythonLogo.png'){
       return(require('../Assets/PythonLogo.png'));
     }
-    else if(var1=='../Assets/AndroidLogo.png'){
+    else if(var1==='../Assets/AndroidLogo.png'){
       return(require('../Assets/AndroidLogo.png'));
     }
-    else if(var1=='../Assets/PhpLogo.png'){
+    else if(var1==='../Assets/PhpLogo.png'){
       return(require('../Assets/PhpLogo.png'));
     }
-    else if(var1=='../Assets/FlaskLogo.png'){
+    else if(var1==='../Assets/FlaskLogo.png'){
       return(require('../Assets/FlaskLogo.png'));
     }
-    else if(var1=='../Assets/ReactLogo.png'){
+    else if(var1==='../Assets/ReactLogo.png'){
       return(require('../Assets/ReactLogo.png'));
     }
     else{
