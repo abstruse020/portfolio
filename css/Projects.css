@@ -1,5 +1,5 @@
 .project_cover{
-  background-color: #gray;
+  background-color: #1f1d1d;
   color: #FFF;
   padding: 2rem;
   padding-bottom: 30px;
@@ -22,12 +22,15 @@ div.card.projects_card{
   /* background-color: #e35e54; */
   background-color: transparent;
   border: none;
-  padding-top: 10px;
+  padding: 30px;
   /* color: rgba(255, 0, 0, 0.5); */
 }
 div.card.skills_card .card-title{
   font-size: 2rem;
-
+}
+p.card-text{
+  padding: 0px 20px;
+  text-align: center;
 }
 img.card-img-top.proj_img.mx-auto.d-block{
   width: 50%;
