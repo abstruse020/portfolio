@@ -1,0 +1,53 @@
+{
+  "navbarData":
+    {
+      "link1":"About",
+      "link2":"Skills",
+      "link3":"projects"
+    },
+  "LandingData":
+    {
+      "FirstName":"Harsh",
+      "LastName":"Pandey",
+      "about":"About data whill be displayed here. Fulfilling the thirst of knowledge Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempo",
+      "twitterLink":"https://twitter.com/HARSHPA93472384",
+      "facebookLink":"https://www.facebook.com/harsh.pandey.9026",
+      "githubLink":"https://github.com/abstruse020"
+    },
+  "Skills":[
+    {
+      "name":"C++",
+      "about":"Primary language for Competitive coding, Codechef https://www.codechef.com/users/abstruse,",
+      "link":"../Assets/CppLogo.png"
+    },
+    {
+      "name":"Python",
+      "about":"Used in implementing Deep Learning projects",
+      "link":"pythonlogo"
+    },
+    {
+      "name":"Android",
+      "about":"Done online and offline courses and made projects",
+      "link":"../Assets/CppLogo.png"
+    },
+    {
+      "name":"PHP",
+      "about":"Made Departmental site of college",
+      "link":"../Assets/CppLogo.png"
+    },
+    {
+      "name":"Working on React and Flask",
+      "about":"Learning them for personal projects",
+      "link":"../Assets/CppLogo.png"
+    }
+  ],
+  "Projects":[
+    {
+      "name":"KNIT Departmental Site",
+      "about":"Created college Departmental site whith 2 of my collegue"
+    },
+    {
+      "name":""
+    }
+  ]
+}

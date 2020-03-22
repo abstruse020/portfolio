@@ -1,0 +1,21 @@
+.my_nav{
+  /* opacity: 0.8; */
+  /* filter:(opacity=80); */
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.2rem;
+  /* color: #fff; */
+  background-color: rgba(224, 13, 13, 0.7);
+}
+.navbar_links:hover{
+  background-color: rgba(0, 0, 0, 0.9);
+  /* opacity: 1; */
+}
+.my_nav .nav-link {
+  color: #FFF;
+  /* align-items: center; */
+}
+.navbar_links{
+  padding: 5px;
+}
