@@ -44,10 +44,15 @@
   "Projects":[
     {
       "name":"KNIT Departmental Site",
-      "about":"Created college Departmental site whith 2 of my collegue"
+      "about":"Created college Departmental site with 2 of my collegues"
     },
     {
-      "name":""
+      "name":"Songs Recommendation System",
+      "about":"Developed Deep Learning application using Boltzman Machine for 3rd year project"
+    },
+    {
+      "name":"BSecure",
+      "about":"Android app to encrypt a text file and convert it into an image"
     }
   ]
 }
