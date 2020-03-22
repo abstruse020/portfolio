@@ -30,26 +30,32 @@
       "about":"Done online and offline courses and made projects",
       "link":"../Assets/AndroidLogo.png"
     },
+
     {
       "name":"PHP",
-      "about":"Made Departmental site of college",
+      "about":"Made Departmental site of college using it",
       "link":"../Assets/PhpLogo.png"
     },
     {
-      "name":"Flask",
-      "about":"Learning them for personal projects",
-      "link":"../Assets/FlaskLogo.png"
+      "name":"Core Java",
+      "about":"started recently, Made this portfolio",
+      "link":"../Assets/JavaLogo.png"
     },
     {
       "name":"React development",
       "about":"started recently, Made this portfolio",
       "link":"../Assets/ReactLogo.png"
+    },
+    {
+      "name":"Flask",
+      "about":"Familiar with basics of it, used in personal projects",
+      "link":"../Assets/FlaskLogo.png"
     }
   ],
   "Projects":[
     {
       "name":"KNIT Departmental Site",
-      "about":"Created college Departmental site with 2 of my collegues",
+      "about":"Creating Departmental site of CSE with 2 of my colleagues",
       "link":"knitcse"
     },
     {
@@ -61,6 +67,11 @@
       "name":"BSecure",
       "about":"Android app to encrypt a text file and convert it into an image",
       "link": "bsecure"
+    },
+    {
+      "name":"Digit Recognizer",
+      "about":"Worked on making digit recognizers using CNN",
+      "link": "digitRecognizer"
     }
   ]
 }

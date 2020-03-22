@@ -32,6 +32,9 @@ class Skills extends Component {
     else if(var1==='../Assets/ReactLogo.png'){
       return(require('../Assets/ReactLogo.png'));
     }
+    else if(var1==='../Assets/JavaLogo.png'){
+      return(require('../Assets/JavaLogo.png'));
+    }
     else{
       return(require('../Assets/Default.png'));
     }
