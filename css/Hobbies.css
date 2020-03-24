@@ -1,33 +1,33 @@
-.achievements_cover{
-  background-color: black;
+.hobbies_cover{
+  background-color: #570202;
   color: #FFF;
-  padding: 40px;
+  padding: 2rem;
   /* padding-left: 1rem; */
-  /* padding-bottom: 30px;
-  padding-top: 30px;
-  padding-left: 30px; */
+  padding-bottom: 30px;
+  padding-top: 40px;
+  padding-right: 40px;
 }
-
-.achievements_heading{
-  font-size: 2.6rem;
-  /* font-size: 2vh; */
-  height: inherit;
+.hobbies_heading{
+  font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
   /* to display text veritcally */
   writing-mode: vertical-lr;
   text-orientation:  upright;
 
+  margin-top: -10px;
   text-align: center;
   color: white;
   opacity: 0.9;
-  left: 0px;
+  right: 0px;
   position: absolute;
-  /* right: 0; */
-  padding-left: 15px;
 }
 
-div.card.achievements_card{
+
+
+
+
+div.card.hobbies_card{
   /* background-color: #e35e54; */
   background-color: white;
   border: none;
@@ -38,6 +38,6 @@ div.card.achievements_card{
   /* color: rgba(255, 0, 0, 0.5); */
 }
 
-div.card.achievements_card .card-title{
-  font-size: 2rem;
+div.card.hobbies_card .card-title{
+  font-size: 3rem;
 }
