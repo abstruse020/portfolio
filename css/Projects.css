@@ -2,11 +2,13 @@
   background-color: #1f1d1d;
   color: #FFF;
   padding: 2rem;
+  padding-left: 1rem;
   padding-bottom: 30px;
   padding-top: 30px;
 }
 
 .project_heading{
+  z-index: 2;
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -22,13 +24,21 @@
 
 div.card.projects_card{
   /* background-color: #e35e54; */
-  background-color: transparent;
+  background-color: gray;
   border: none;
+  /* opacity: 0.5; */
   padding: 30px;
+  /* display: inline; */
   /* color: rgba(255, 0, 0, 0.5); */
 }
-div.card.skills_card .card-title{
+div.card.projects_card::after{
+  background-color: gray;
+  opacity: 0.2;
+}
+
+div.card.projects_card .card-title{
   font-size: 2rem;
+  /* opacity: 1; */
 }
 p.card-text{
   padding: 0px 20px;
