@@ -31,6 +31,9 @@ render() {
             <li className='navbar_links nav-item'>
               <a className='nav-link' href='#achievements'>{this.navData.link4}</a>
             </li>
+            <li className='navbar_links nav-item'>
+              <a className='nav-link' href='#hobbies'>{this.navData.link5}</a>
+            </li>
           </ul>
         </div>
     </nav>

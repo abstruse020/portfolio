@@ -4,7 +4,8 @@
       "link1":"About",
       "link2":"Skills",
       "link3":"projects",
-      "link4":"Achivements"
+      "link4":"Achivements",
+      "link5":"Hobbies"
     },
   "LandingData":
     {
@@ -95,6 +96,26 @@
     {
       "name":"Successfully completed SDN course from MNNIT Allahabad",
       "about":"Done a course on SOFTWARE DEFINED NETWORKS from MNNIT Allahabad"
+    }
+  ],
+  "Hobbies":[
+    {
+      "name":"Football"
+    },
+    {
+      "name":"Playing Flute"
+    },
+    {
+      "name":"Reading Books (Genre:Popular Science)"
+    },
+    {
+      "name":"Sketching"
+    },
+    {
+      "name":"Badminton"
+    },
+    {
+      "name":"Table Tennis"
     }
   ]
 }

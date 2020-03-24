@@ -6,7 +6,7 @@
   padding: 0px;
   font-size: 1.2rem;
   /* color: #fff; */
-  background-color: rgba(224, 13, 13, 0.7);
+  background-color: rgba(224, 13, 13, 0.8);
 }
 .navbar_links:hover{
   background-color: rgba(0, 0, 0, 0.9);

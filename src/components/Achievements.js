@@ -10,9 +10,9 @@ class Achievements extends Component{
 
   render(){
     return(
-      <div className='achievements_cover'>
-        <heading className='achievements_heading'>A<br/>C<br/>H<br/>I<br/>E<br/>V<br/>E<br/>M<br/>E<br/>N<br/>T<br/>S</heading>
-        <div id='achievements' className='card-columns'>
+      <div id='achievements' className='achievements_cover'>
+        <heading className='achievements_heading'>achievements</heading>
+        <div className='card-columns'>
           {
             this.achievementsData.map((data, index) => (
               <dvi className=''>
