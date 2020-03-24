@@ -1,0 +1,37 @@
+.achievements_cover{
+  background-color: black;
+  color: #FFF;
+  padding: 40px;
+  /* padding-left: 1rem; */
+  /* padding-bottom: 30px;
+  padding-top: 30px;
+  padding-left: 30px; */
+}
+
+.achievements_heading{
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  opacity: 0.9;
+  left: 0px;
+  position: absolute;
+  /* right: 0; */
+  padding-right: 30px;
+}
+
+div.card.achievements_card{
+  /* background-color: #e35e54; */
+  background-color: white;
+  border: none;
+  padding: 10px;
+  color: black;
+  opacity: 0.6;
+  /* display: inline; */
+  /* color: rgba(255, 0, 0, 0.5); */
+}
+
+div.card.achievements_card .card-title{
+  font-size: 2rem;
+}

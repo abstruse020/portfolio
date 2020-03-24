@@ -61,12 +61,12 @@
     },
     {
       "name":"Songs Recommendation System",
-      "about":"Developed Deep Learning application using Boltzman Machine for 3rd year project",
+      "about":"Developed Deep Learning application using Restricted Boltzman Machine",
       "link":"deeplearning"
     },
     {
       "name":"BSecure",
-      "about":"Android app to encrypt a text file and convert it into an image",
+      "about":"An Android app to encrypt a text file and convert it into an image, a cool and secure way to save your files",
       "link": "bsecure"
     },
     {
@@ -75,9 +75,26 @@
       "link": "digitRecognizer"
     }
   ],
-  "Achivements":[
+  "Achievements":[
     {
-      "name":""
+      "name":"Cpmetitive Programming on Codechef",
+      "about":"Always ready to code especially challenging questions, coding is a thing I could to forever"
+    },
+    {
+      "name":"Recipient of Merit Based scholarship in College",
+      "about":"Top six students every year gets it, I being one of them"
+    },
+    {
+      "name":"Under Top 1 perccentile, in NPTEL course",
+      "about":"Got 87% in NPTEL course Software Project Management"
+    },
+    {
+      "name":"Kaggle Contest",
+      "about":"Participated in various local kaggle contest organised by ONE FOURTH LABS for deeplearning tasks and got 37, 45 and 32 place in them"
+    },
+    {
+      "name":"Successfully completed SDN course from MNNIT Allahabad",
+      "about":"Done a course on SOFTWARE DEFINED NETWORKS from MNNIT Allahabad"
     }
   ]
 }

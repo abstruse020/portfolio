@@ -4,7 +4,7 @@ import profileData from './profileData.json';
 import Landing from './components/Landing';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Achivements from './components/Achivements';
+import Achievements from './components/Achievements';
 import './App.css';
 
 class App extends Component {
@@ -15,7 +15,7 @@ class App extends Component {
       landingData: profileData.LandingData,
       skillsData: profileData.Skills,
       projectData: profileData.Projects,
-      achivementsData: profileData.Achivements
+      achivementsData: profileData.Achievements
     }
 
   }
@@ -26,7 +26,7 @@ class App extends Component {
         <Landing landingData={this.state.landingData}/>
         <Skills SkillsData={this.state.skillsData}/>
         <Projects ProjectData={this.state.projectData}/>
-        <Achivements AchivementsData={this.state.achivementsData}/>
+        <Achievements AchievementsData={this.state.achivementsData}/>
         <div className=''>
 
         </div>
