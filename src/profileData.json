@@ -5,7 +5,8 @@
       "link2":"Skills",
       "link3":"projects",
       "link4":"Achivements",
-      "link5":"Hobbies"
+      "link5":"Hobbies",
+      "link6":"Contact"
     },
   "LandingData":
     {
@@ -117,5 +118,10 @@
     {
       "name":"Table Tennis"
     }
-  ]
+  ],
+  "Contact":{
+    "name":"Harsh Pandey",
+    "email":"bokharsh@gmail.com",
+    "altemail":"harsh.16223@knit.ac.in"
+  }
 }

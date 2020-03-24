@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Achievements from './components/Achievements';
 import Hobbies from './components/Hobbies';
+import Contact from './components/Contact';
 import './App.css';
 
 class App extends Component {
@@ -17,7 +18,8 @@ class App extends Component {
       skillsData: profileData.Skills,
       projectData: profileData.Projects,
       achivementsData: profileData.Achievements,
-      hobbiesData: profileData.Hobbies
+      hobbiesData: profileData.Hobbies,
+      contactData: profileData.Contact
     }
 
   }
@@ -30,6 +32,7 @@ class App extends Component {
         <Projects ProjectData={this.state.projectData}/>
         <Achievements AchievementsData={this.state.achivementsData}/>
         <Hobbies HobbiesData={this.state.hobbiesData}/>
+        <Contact ContactData={this.state.contactData}/>
         <div className=''>
 
         </div>

@@ -34,6 +34,9 @@ render() {
             <li className='navbar_links nav-item'>
               <a className='nav-link' href='#hobbies'>{this.navData.link5}</a>
             </li>
+            <li className='navbar_links nav-item'>
+              <a className='nav-link' href='#contact'>{this.navData.link6}</a>
+            </li>
           </ul>
         </div>
     </nav>
