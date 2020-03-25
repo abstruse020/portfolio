@@ -1,5 +1,5 @@
 .contact_cover{
-  background-color: white;
+  background-color: #faeae6;
   color: black;
   padding: 40px;
 
@@ -28,12 +28,18 @@
   /* align-items: center; */
   text-align: center;
   display: block;
-  background-color: #ff0000;
+  opacity: 0.7;
+  background-color: red;
   border-radius: 10px;
   margin: 20px;
+  transition: transform 0.2s;
+  box-shadow: 5px 5px black;
 }
 .resume:hover{
-  opacity: 0.8;
+  opacity: 1;
+  /* padding: 20px; */
+  box-shadow: 5px 5px black;
+  transform: scale3d(1.1,1.1,1);
 }
 .resume a{
   /* text-align: center; */
@@ -46,12 +52,21 @@
 .email{
   text-align: center;
   display: block;
-  background-color: #ff0000;
+  background-color: red;
   border-radius: 10px;
   margin: 20px;
+  opacity: 0.7;
+  transition: transform 0.2s;
+  box-shadow: 5px 5px black;
 }
 .email:hover{
-  opacity: 0.8;
+  opacity: 0.6;
+  /* padding:10px; */
+  /* background-color: #a3381d; */
+  opacity: 1;
+  /* padding: 20px; */
+  box-shadow: 5px 5px black;
+  transform: scale3d(1.1,1.1,1);
 }
 
 .email a{

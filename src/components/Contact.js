@@ -10,10 +10,10 @@ class Contact extends Component {
         <div id='contact' className='contact_cover'>
           <heading className='contact_heading'>Contact</heading>
           <div className='resume col-md-4 mx-auto d-block'>
-            <a href='./components/resume.pdf'>Click to download<br/>Resume</a>
+            <a href={require('../Assets/resume.pdf')}>Click to download<br/>Resume</a>
           </div>
           <div className='email col-md-4 mx-auto d-block'>
-            <a href="mailto:bokharsh@gmail.com?subject=Hey Harsh">Email: {this.contactData.email}</a> 
+            <a href="mailto:bokharsh@gmail.com?subject=Hey Harsh">Click to send Email: {this.contactData.email}</a>
           </div>
           <div className='other-text col-md-4 mx-auto d-block'>
             Feel free to contact &#128578;
