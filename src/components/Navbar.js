@@ -1,5 +1,5 @@
 import React,{ Component } from 'react';
-
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
 class Navbar extends Component{
@@ -20,22 +20,22 @@ render() {
         <div className='collapse navbar-collapse' id='my_nav_collapse'>
           <ul className='navbar-nav mx-auto'>
             <li className='navbar_links nav-item'>
-              <a className='nav-link' href='#about'>{this.navData.link1}<span class="sr-only">(current)</span></a>
+              <AnchorLink className='nav-link' href='#about'>{this.navData.link1}<span class="sr-only">(current)</span></AnchorLink>
             </li>
             <li className='navbar_links nav-item'>
-              <a className='nav-link' href='#skills'>{this.navData.link2}</a>
+              <AnchorLink className='nav-link' href='#skills'>{this.navData.link2}</AnchorLink>
             </li>
             <li className='navbar_links nav-item'>
-              <a className='nav-link' href='#project'>{this.navData.link3}</a>
+              <AnchorLink className='nav-link' href='#project'>{this.navData.link3}</AnchorLink>
             </li>
             <li className='navbar_links nav-item'>
-              <a className='nav-link' href='#achievements'>{this.navData.link4}</a>
+              <AnchorLink className='nav-link' href='#achievements'>{this.navData.link4}</AnchorLink>
             </li>
             <li className='navbar_links nav-item'>
-              <a className='nav-link' href='#hobbies'>{this.navData.link5}</a>
+              <AnchorLink className='nav-link' href='#hobbies'>{this.navData.link5}</AnchorLink>
             </li>
             <li className='navbar_links nav-item'>
-              <a className='nav-link' href='#contact'>{this.navData.link6}</a>
+              <AnchorLink className='nav-link' href='#contact'>{this.navData.link6}</AnchorLink>
             </li>
           </ul>
         </div>

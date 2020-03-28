@@ -16,7 +16,7 @@ class Contact extends Component {
             <a href="mailto:bokharsh@gmail.com?subject=Hey Harsh">Click to send Email: {this.contactData.email}</a>
           </div>
           <div className='other-text col-md-4 mx-auto d-block'>
-            Feel free to contact &#128578;
+            Feel free to contact <span role='img' aria-label="smiley">&#128578;</span>
           </div>
         </div>
       )
