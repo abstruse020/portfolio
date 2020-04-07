@@ -12,9 +12,12 @@
   background-color: rgba(0, 0, 0, 0.9);
   /* opacity: 1; */
 }
+
 .my_nav .nav-link {
   color: #FFF;
   /* align-items: center; */
+  outline: none;
+  text-decoration: none;
 }
 .navbar_links{
   padding: 5px;
