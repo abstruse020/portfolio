@@ -10,11 +10,11 @@ class Projects extends Component {
   }
 
   giveImage(var1){
-    if (var1==='../Assets/CppLogo.png') {
-      return(require('../Assets/CppLogo.png'));
+    if (var1==='../Assets/sRS.png') {
+      return(require('../Assets/sRS.png'));
     }
-    else if(var1==='../Assets/PythonLogo.png'){
-      return(require('../Assets/PythonLogo.png'));
+    else if(var1==='../Assets/digitRecognizer.png'){
+      return(require('../Assets/digitRecognizer.png'));
     }
     else{
       return(require('../Assets/Default.png'));

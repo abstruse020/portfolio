@@ -45,6 +45,7 @@
   /* text-align: center; */
   text-transform: capitalize;
   text-decoration: none;
+  outline: none;
   color: white;
   display: block;
   padding: 40px;
@@ -72,6 +73,7 @@
 .email a{
   /* text-transform: capitalize; */
   text-decoration: none;
+  outline: none;
   color: white;
   display: block;
   padding: 40px;

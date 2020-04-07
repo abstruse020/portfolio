@@ -39,6 +39,7 @@
 /* for social media icons */
 .social a{
   text-decoration: none;
+  outline: none;
 }
 .fa {
   margin:50px 15px;

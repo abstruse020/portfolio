@@ -64,7 +64,7 @@
     {
       "name":"Songs Recommendation System",
       "about":"Developed Deep Learning application using Restricted Boltzmann Machine",
-      "link":"deeplearning"
+      "link":"../Assets/sRS.png"
     },
     {
       "name":"BSecure",
@@ -74,7 +74,7 @@
     {
       "name":"Digit Recognizer",
       "about":"Worked on making digit recognizers using CNN",
-      "link": "digitRecognizer"
+      "link": "../Assets/digitRecognizer.png"
     }
   ],
   "Achievements":[
