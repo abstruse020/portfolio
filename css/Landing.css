@@ -16,7 +16,9 @@
 
 .name_section{
  font-size: 8.5vw;
+ /* font-size: 700%; */
  text-transform: capitalize;
+ opacity: 0.9;
  text-align: center;
  color: #FFFFFF;
 }
@@ -25,15 +27,18 @@
   display: inline;
   list-style-type: none;
   margin: 0px;
-  padding-left: auto;
+  padding-left: 0px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .other_section{
-  font-size: 2.5vw;
-  color: #FFFFD0;
+  /* font-size: 2.5vw; */
+  font-size: 150%;
+  /* color: #FFFFD0; */
+  color: #d4c3c3;
   text-align: center;
+  font-style: italic;
 }
 
 /* for social media icons */
