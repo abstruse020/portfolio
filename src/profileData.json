@@ -69,7 +69,7 @@
     {
       "name":"BSecure",
       "about":"An Android app to encrypt a text file and convert it into an image, a cool and secure way to save your files",
-      "link": "bsecure.jpg"
+      "link": "../Assets/bsecure.jpg"
     },
     {
       "name":"Digit Recognizer",
