@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9a6e9a2ec6a5f35c6d914229aa4f5d7",
+    "revision": "3129afe8348fc863f6f3869bca7d78f6",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "c2f97f5f70ab67f046a7",
+    "revision": "e82a2435394ba608b488",
     "url": "/portfolio/static/css/main.98de97e4.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.306cade2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c2f97f5f70ab67f046a7",
-    "url": "/portfolio/static/js/main.8de01719.chunk.js"
+    "revision": "e82a2435394ba608b488",
+    "url": "/portfolio/static/js/main.60ccae6f.chunk.js"
   },
   {
     "revision": "9001bc976e1e9cf1fd4d",
     "url": "/portfolio/static/js/runtime-main.cf8bc7fe.js"
   },
   {
-    "revision": "3608e42bb65a224005a71a7e1e4a3b18",
-    "url": "/portfolio/static/media/AndroidLogo.3608e42b.png"
+    "revision": "2db2fad9419e15577da12aa316179abb",
+    "url": "/portfolio/static/media/AndroidLogo.2db2fad9.png"
   },
   {
     "revision": "8f42e018a9340b6e4e20161b06525308",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/PythonLogo.31f6b12d.png"
   },
   {
-    "revision": "125e431fdac7b514345912972be03246",
-    "url": "/portfolio/static/media/digitRecognizer.125e431f.png"
+    "revision": "b0d73164c873fc07e567c0f2c6a7879c",
+    "url": "/portfolio/static/media/digitRecognizer.b0d73164.png"
   },
   {
     "revision": "494f673ff11b5546e81d4757be629602",
@@ -60,7 +60,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/resume.5be78b15.pdf"
   },
   {
-    "revision": "791a195f826333ff3d16e2237fddd37b",
-    "url": "/portfolio/static/media/sRS.791a195f.png"
+    "revision": "639b9698ffe41b1ee9a751be7b00fb4e",
+    "url": "/portfolio/static/media/sRS.639b9698.png"
   }
 ]);
