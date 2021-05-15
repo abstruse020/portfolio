@@ -11,7 +11,6 @@ class Skills extends Component {
       "CpplLogo": require('../Assets/CppLogo.png'),
       "PythonLogo": require('../Assets/CppLogo.png')
     }
-
   }
   giveImage(var1){
     if (var1==='../Assets/CppLogo.png') {
