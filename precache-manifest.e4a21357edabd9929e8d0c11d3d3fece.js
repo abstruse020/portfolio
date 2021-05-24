@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3129afe8348fc863f6f3869bca7d78f6",
+    "revision": "252aabb3d774ff772cbb3f377c6f18cc",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "e82a2435394ba608b488",
+    "revision": "ed79904cbfcc99dfe5ad",
     "url": "/portfolio/static/css/main.98de97e4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.306cade2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e82a2435394ba608b488",
-    "url": "/portfolio/static/js/main.60ccae6f.chunk.js"
+    "revision": "ed79904cbfcc99dfe5ad",
+    "url": "/portfolio/static/js/main.af1e4a36.chunk.js"
   },
   {
     "revision": "9001bc976e1e9cf1fd4d",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2db2fad9419e15577da12aa316179abb",
     "url": "/portfolio/static/media/AndroidLogo.2db2fad9.png"
+  },
+  {
+    "revision": "6eed9079ae1b7c07153d1c9479fa3003",
+    "url": "/portfolio/static/media/CSharpLogo.6eed9079.png"
   },
   {
     "revision": "8f42e018a9340b6e4e20161b06525308",
@@ -46,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "31f6b12d5f5ac94d19487edfd535729c",
     "url": "/portfolio/static/media/PythonLogo.31f6b12d.png"
+  },
+  {
+    "revision": "3a37825792fa332aca0eb81173b89625",
+    "url": "/portfolio/static/media/RubyOnRails.3a378257.png"
   },
   {
     "revision": "b0d73164c873fc07e567c0f2c6a7879c",
