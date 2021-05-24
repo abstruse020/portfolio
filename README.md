@@ -27,6 +27,11 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `yarn deploy`
+
+Pushes the current build of the application to gh-pages branch in your github.<br />
+Has dependency -- gh-pages (to install -- npm install gh-pages)
+
 ### `yarn eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
