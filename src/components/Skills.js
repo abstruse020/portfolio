@@ -34,6 +34,12 @@ class Skills extends Component {
     else if(var1==='../Assets/JavaLogo.png'){
       return(require('../Assets/JavaLogo.png'));
     }
+    else if(var1==='../Assets/RubyOnRails.png'){
+      return(require('../Assets/RubyOnRails.png'));
+    }
+    else if(var1==='../Assets/CSharpLogo.png'){
+      return(require('../Assets/CSharpLogo.png'));
+    }
     else{
       return(require('../Assets/Default.png'));
     }

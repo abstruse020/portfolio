@@ -16,7 +16,7 @@ class Projects extends Component {
     else if(var1==='../Assets/digitRecognizer.png'){
       return(require('../Assets/digitRecognizer.png'));
     }
-    else if(var1=='../Assets/bsecure.jpg'){
+    else if(var1==='../Assets/bsecure.jpg'){
       return(require('../Assets/bsecure.jpg'));
     }
     else{

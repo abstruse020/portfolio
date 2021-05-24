@@ -24,6 +24,21 @@
       "link":"../Assets/CppLogo.png"
     },
     {
+      "name":"React",
+      "about":"Professional Experience of 5+ months and using it in a current project",
+      "link":"../Assets/ReactLogo.png"
+    },
+    {
+      "name":"Ruby on Rails",
+      "about":"Professional Experience of 2+ months, using it in a current project",
+      "link":"../Assets/RubyOnRails.png"
+    },
+    {
+      "name":"Dot Net Core and Framework",
+      "about":"Got Training within global logic and worked under a project with it",
+      "link":"../Assets/CSharpLogo.png"
+    },
+    {
       "name":"Python",
       "about":"Used in implementing Deep Learning projects",
       "link":"../Assets/PythonLogo.png"
@@ -43,11 +58,6 @@
       "name":"Core Java",
       "about":"started recently, Made this portfolio",
       "link":"../Assets/JavaLogo.png"
-    },
-    {
-      "name":"React",
-      "about":"started recently, Made this portfolio",
-      "link":"../Assets/ReactLogo.png"
     },
     {
       "name":"Flask",
