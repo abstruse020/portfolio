@@ -2,6 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+First run to install all dependencies of the project (`npm install` should also work)  
+### `yarn`
+
 In the project directory, you can run:
 
 ### `yarn start`
@@ -11,6 +14,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+If you get an erro like `ERR_OSSL_EVP_UNSUPPORTED` in linux terminal, use 
+#### `export NODE_OPTIONS=--openssl-legacy-provider`
+
 
 ### `yarn test`
 

@@ -18,7 +18,7 @@ class Landing extends Component {
             <div className='social'>
               <a href={this.LanData.twitterLink} target='_blank' rel='noopener noreferrer' class="fa fa-twitter"></a>
               <a href={this.LanData.githubLink} target='_blank' rel='noopener noreferrer' class="fa fa-github"></a>
-              <a href={this.LanData.facebookLink} target='_blank' rel='noopener noreferrer' class="fa fa-facebook"></a>
+              <a href={this.LanData.linkedinLink} target='_blank' rel='noopener noreferrer' class="fa fa-linkedin bg-light"></a>
             </div>
           </li>
           <li className='col-md-8'>
