@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ThemeToggle from '../components/react/ThemeToggle';
+import ScrollProgress from '../components/react/ScrollProgress';
+import Header from '../components/astro/Header.astro';
+import Hero from '../components/astro/sections/Hero.astro';
+import About from '../components/astro/sections/About.astro';
+import Publications from '../components/astro/sections/Publications.astro';
+import Projects from '../components/astro/sections/Projects.astro';
+import Skills from '../components/astro/sections/Skills.astro';
+import Life from '../components/astro/sections/Life.astro';
+import Contact from '../components/astro/sections/Contact.astro';
+import Footer from '../components/astro/Footer.astro';
+---
+
+<Layout>
+  <ThemeToggle client:load />
+  <ScrollProgress client:load />
+  <Header />
+  
+  <main>
+    <Hero />
+    <About />
+    <Publications />
+    <Projects />
+    <Skills />
+    <Life />
+    <Contact />
+  </main>
+  
+  <Footer />
+</Layout>

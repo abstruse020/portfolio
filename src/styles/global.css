@@ -1,0 +1,140 @@
+@import "tailwindcss";
+/* 
+@import "./palettes/earthy-warm.css";
+@import "./palettes/charcoal-gray.css";
+@import "./palettes/cool-contrast.css";
+@import "./palettes/earthy-warm.css";
+@import "./palettes/navey-blue.css";
+@import "./palettes/neutral.css";
+@import "./palettes/olive-green.css";
+@import "./palettes/terracotta.css";
+@import "./palettes/turquoise.css";
+*/
+
+@import "./palettes/earthy-warmv2.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-primary-100 text-primary-900 dark:bg-primary-950 dark:text-primary-100;
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbar - raw CSS for dark mode compatibility */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-primary-200);
+}
+.dark ::-webkit-scrollbar-track {
+  background-color: var(--color-primary-900);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary-400);
+  border-radius: 9999px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary-600);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-primary-500);
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-primary-500);
+}
+
+/* Selection - raw CSS for dark mode compatibility */
+::selection {
+  background-color: var(--color-primary-300);
+}
+.dark ::selection {
+  background-color: var(--color-primary-700);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-section {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.animate-section.in-view {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+@media (scripting: none) {
+  .animate-section {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Section spacing */
+.section-padding {
+  @apply py-20 md:py-32 px-6 md:px-12 lg:px-24;
+}
+
+/* Container */
+.container-narrow {
+  @apply max-w-4xl mx-auto;
+}
+
+.container-wide {
+  @apply max-w-6xl mx-auto;
+}
+
+/* Typography */
+.heading-lg {
+  @apply text-4xl md:text-5xl lg:text-6xl font-light tracking-tight;
+}
+
+.heading-md {
+  @apply text-2xl md:text-3xl font-light tracking-tight;
+}
+
+.heading-sm {
+  @apply text-xl md:text-2xl font-normal;
+}
+
+/* Card styles - using palette color instead of bg-white */
+.card {
+  @apply bg-primary-50 dark:bg-primary-900 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow duration-300;
+}
+
+/* Link styles */
+.link-underline {
+  @apply relative inline-block;
+}
+
+.link-underline::after {
+  content: '';
+  @apply absolute bottom-0 left-0 w-0 h-px bg-current transition-all duration-300;
+}
+
+.link-underline:hover::after {
+  @apply w-full;
+}
+
+/* Dark mode transitions */
+.dark-transition {
+  @apply transition-colors duration-300 ease-in-out;
+}

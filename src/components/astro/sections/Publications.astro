@@ -1,0 +1,70 @@
+---
+import { getCollection } from 'astro:content';
+import AnimatedSection from '../AnimatedSection.astro';
+
+const publications = await getCollection('publications');
+const sortedPublications = publications.sort((a, b) => a.data.order - b.data.order);
+---
+
+<section id="publications" class="section-padding bg-accent-50 dark:bg-primary-900/50">
+  <div class="container-narrow">
+    <AnimatedSection>
+      <h2 class="heading-lg text-primary-800 dark:text-primary-100 mb-12">Publications</h2>
+    </AnimatedSection>
+
+    <div class="space-y-8">
+      {sortedPublications.map((pub, index) => (
+        <AnimatedSection key={pub.id} delay={index * 0.1}>
+          <article class="card">
+            <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
+              <div class="flex-1">
+                <h3 class="heading-sm text-primary-800 dark:text-primary-100 mb-2">
+                  {pub.data.title}
+                </h3>
+                <p class="text-primary-600 dark:text-primary-400 mb-2">
+                  {pub.data.authors}
+                </p>
+                <p class="text-sm text-primary-500 dark:text-primary-500">
+                  {pub.data.journal} • {pub.data.year}
+                </p>
+              </div>
+              
+              <div class="flex gap-3">
+                {pub.data.doi && (
+                  <a 
+                    href={`https://doi.org/${pub.data.doi}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="px-4 py-2 text-sm bg-primary-200 dark:bg-primary-800 text-primary-700 dark:text-primary-300 rounded-lg hover:bg-primary-300 dark:hover:bg-primary-700 transition-colors"
+                  >
+                    DOI
+                  </a>
+                )}
+                {pub.data.url && (
+                  <a 
+                    href={pub.data.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="px-4 py-2 text-sm bg-primary-800 dark:bg-primary-200 text-primary-100 dark:text-primary-800 rounded-lg hover:bg-primary-700 dark:hover:bg-primary-300 transition-colors"
+                  >
+                    PDF
+                  </a>
+                )}
+              </div>
+            </div>
+            
+            {pub.data.tags.length > 0 && (
+              <div class="flex flex-wrap gap-2 mt-4">
+                {pub.data.tags.map((tag) => (
+                  <span class="px-3 py-1 text-xs bg-primary-200/50 dark:bg-primary-800/50 text-primary-600 dark:text-primary-400 rounded-full">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            )}
+          </article>
+        </AnimatedSection>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,45 @@
+/* Cool & Contrasting Palette */
+/* Navy Blue (27, 42, 71) as primary */
+@theme {
+  --color-primary-50: rgb(235, 238, 245);
+  --color-primary-100: rgb(211, 217, 231);
+  --color-primary-200: rgb(175, 185, 212);
+  --color-primary-300: rgb(138, 153, 193);
+  --color-primary-400: rgb(102, 121, 174);
+  --color-primary-500: rgb(27, 42, 71);
+  --color-primary-600: rgb(22, 34, 57);
+  --color-primary-700: rgb(17, 26, 43);
+  --color-primary-800: rgb(12, 18, 29);
+  --color-primary-900: rgb(7, 10, 16);
+  --color-primary-950: rgb(3, 5, 8);
+
+  /* Deep Teal (0, 95, 115) as accent */
+  --color-accent-50: rgb(224, 242, 246);
+  --color-accent-100: rgb(187, 227, 236);
+  --color-accent-200: rgb(135, 206, 221);
+  --color-accent-300: rgb(84, 185, 206);
+  --color-accent-400: rgb(32, 164, 191);
+  --color-accent-500: rgb(0, 95, 115);
+  --color-accent-600: rgb(0, 76, 92);
+  --color-accent-700: rgb(0, 57, 69);
+  --color-accent-800: rgb(0, 38, 46);
+  --color-accent-900: rgb(0, 19, 23);
+
+  /* Charcoal Grey (54, 59, 62) */
+  --color-grey-50: rgb(239, 240, 240);
+  --color-grey-100: rgb(218, 220, 221);
+  --color-grey-200: rgb(189, 192, 194);
+  --color-grey-300: rgb(159, 164, 167);
+  --color-grey-400: rgb(125, 131, 135);
+  --color-grey-500: rgb(54, 59, 62);
+  --color-grey-600: rgb(43, 47, 50);
+  --color-grey-700: rgb(32, 35, 37);
+  --color-grey-800: rgb(21, 24, 25);
+  --color-grey-900: rgb(11, 12, 13);
+
+  /* Accent highlight: rgb(225, 215, 203) */
+  --color-highlight: rgb(225, 215, 203);
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}

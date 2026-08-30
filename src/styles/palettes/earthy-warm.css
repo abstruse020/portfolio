@@ -1,0 +1,45 @@
+/* Earthy & Warm Palette */
+/* Terracotta (194, 91, 61) as primary */
+@theme {
+  --color-primary-50: rgb(250, 242, 238);
+  --color-primary-100: rgb(243, 224, 215);
+  --color-primary-200: rgb(231, 193, 175);
+  --color-primary-300: rgb(218, 162, 135);
+  --color-primary-400: rgb(206, 131, 98);
+  --color-primary-500: rgb(194, 91, 61);
+  --color-primary-600: rgb(168, 78, 52);
+  --color-primary-700: rgb(135, 62, 42);
+  --color-primary-800: rgb(102, 47, 31);
+  --color-primary-900: rgb(74, 34, 23);
+  --color-primary-950: rgb(45, 20, 12);
+
+  /* Warm Olive Green (107, 114, 82) as accent */
+  --color-accent-50: rgb(243, 244, 239);
+  --color-accent-100: rgb(226, 228, 218);
+  --color-accent-200: rgb(200, 204, 185);
+  --color-accent-300: rgb(173, 179, 151);
+  --color-accent-400: rgb(140, 147, 117);
+  --color-accent-500: rgb(107, 114, 82);
+  --color-accent-600: rgb(86, 91, 66);
+  --color-accent-700: rgb(65, 69, 49);
+  --color-accent-800: rgb(45, 48, 34);
+  --color-accent-900: rgb(28, 30, 21);
+
+  /* Chocolate Brown (74, 53, 41) */
+  --color-brown-50: rgb(240, 235, 232);
+  --color-brown-100: rgb(221, 211, 204);
+  --color-brown-200: rgb(191, 174, 162);
+  --color-brown-300: rgb(160, 137, 120);
+  --color-brown-400: rgb(118, 94, 80);
+  --color-brown-500: rgb(74, 53, 41);
+  --color-brown-600: rgb(59, 42, 33);
+  --color-brown-700: rgb(45, 32, 25);
+  --color-brown-800: rgb(30, 21, 16);
+  --color-brown-900: rgb(18, 12, 9);
+
+  /* Accent highlight: rgb(225, 215, 203) */
+  --color-highlight: rgb(225, 215, 203);
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}

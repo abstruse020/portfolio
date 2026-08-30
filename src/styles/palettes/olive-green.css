@@ -1,0 +1,29 @@
+@theme {
+  --color-primary-50: rgb(247, 248, 245);
+  --color-primary-100: rgb(236, 239, 231);
+  --color-primary-200: rgb(217, 222, 206);
+  --color-primary-300: rgb(190, 198, 173);
+  --color-primary-400: rgb(158, 167, 137);
+  --color-primary-500: rgb(107, 114, 82);
+  --color-primary-600: rgb(89, 95, 68);
+  --color-primary-700: rgb(72, 77, 55);
+  --color-primary-800: rgb(56, 60, 43);
+  --color-primary-900: rgb(46, 49, 36);
+  --color-primary-950: rgb(24, 26, 19);
+
+  --color-accent-50: rgb(242, 242, 242);
+  --color-accent-100: rgb(224, 224, 224);
+  --color-accent-200: rgb(200, 200, 200);
+  --color-accent-300: rgb(176, 176, 176);
+  --color-accent-400: rgb(159, 159, 159);
+  --color-accent-500: rgb(142, 142, 142);
+  --color-accent-600: rgb(114, 114, 114);
+  --color-accent-700: rgb(85, 85, 85);
+  --color-accent-800: rgb(57, 57, 57);
+  --color-accent-900: rgb(28, 28, 28);
+
+  --color-highlight: rgb(227, 232, 217);
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}

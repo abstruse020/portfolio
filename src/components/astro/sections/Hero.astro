@@ -1,0 +1,53 @@
+---
+import AnimatedSection from '../AnimatedSection.astro';
+---
+
+<section class="min-h-screen flex items-center justify-center section-padding pt-24">
+  <div class="container-narrow text-center">
+    <AnimatedSection>
+      <p class="text-accent-600 dark:text-accent-400 mb-4 tracking-widest uppercase text-sm">
+        Hello, I'm
+      </p>
+    </AnimatedSection>
+    
+    <AnimatedSection delay={0.1}>
+      <h1 class="heading-lg text-primary-800 dark:text-primary-100 mb-6">
+        Harsh Pandey
+      </h1>
+    </AnimatedSection>
+    
+    <AnimatedSection delay={0.2}>
+      <p class="text-xl md:text-2xl text-accent-500 dark:text-accent-400 mb-8 font-light">
+        AI Researcher
+      </p>
+    </AnimatedSection>
+    
+    <AnimatedSection delay={0.3}>
+        <div class="max-w-xl mx-auto mb-12 text-center">
+            <p class="text-primary-500 dark:text-primary-500 text-lg md:text-base italic mb-2">
+            "If people aren't calling you crazy, you aren't thinking big enough."
+            </p>
+            <span class="text-accent-500 dark:text-accent-400 text-xs tracking-widest uppercase font-semibold">
+                — Richard Branson
+            </span>
+        </div>
+    </AnimatedSection>
+    
+    <AnimatedSection delay={0.4}>
+      <div class="flex justify-center gap-4">
+        <a 
+          href="#projects" 
+          class="px-6 py-3 bg-accent-500 dark:bg-accent-600 text-white dark:text-primary-100 rounded-full hover:bg-accent-600 dark:hover:bg-accent-500 transition-colors"
+        >
+          My Works
+        </a>
+        <a 
+          href="#contact" 
+          class="px-6 py-3 border border-primary-300 dark:border-primary-700 text-primary-700 dark:text-primary-300 rounded-full hover:bg-primary-100 dark:hover:bg-primary-900 transition-colors"
+        >
+          Contact
+        </a>
+      </div>
+    </AnimatedSection>
+  </div>
+</section>

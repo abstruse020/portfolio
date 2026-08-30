@@ -1,0 +1,56 @@
+---
+import { getCollection } from 'astro:content';
+import AnimatedSection from '../AnimatedSection.astro';
+
+const life = await getCollection('life');
+const sortedLife = life.sort((a, b) => a.data.order - b.data.order);
+---
+
+<section id="life" class="section-padding">
+  <div class="container-wide">
+    <AnimatedSection>
+      <h2 class="heading-lg text-primary-800 dark:text-primary-100 mb-12">Life</h2>
+    </AnimatedSection>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {sortedLife.map((item, index) => (
+        <AnimatedSection key={item.id} delay={index * 0.1}>
+          <article class="card h-full flex flex-col">
+            {item.data.image && (
+              <div class="aspect-square rounded-xl overflow-hidden mb-4 bg-primary-200 dark:bg-primary-800">
+                <img 
+                  src={item.data.image} 
+                  alt={item.data.title}
+                  class="w-full h-full object-cover"
+                  loading="lazy"
+                />
+              </div>
+            )}
+            
+            <div class="flex-1">
+              <p class="text-sm text-primary-500 dark:text-primary-500 mb-2">
+                {item.data.date}
+              </p>
+              <h3 class="heading-sm text-primary-800 dark:text-primary-100 mb-3">
+                {item.data.title}
+              </h3>
+              <div class="prose prose-sm prose-primary dark:prose-invert max-w-none">
+                <Fragment set:html={item.body.slice(0, 200) + '...'} />
+              </div>
+            </div>
+            
+            {item.data.tags.length > 0 && (
+              <div class="flex flex-wrap gap-2 mt-4">
+                {item.data.tags.map((tag) => (
+                  <span class="px-2 py-1 text-xs bg-primary-200/50 dark:bg-primary-800/50 text-primary-600 dark:text-primary-400 rounded">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            )}
+          </article>
+        </AnimatedSection>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,37 @@
+---
+interface Props {
+  className?: string;
+  delay?: number;
+}
+
+const { className = '', delay = 0 } = Astro.props;
+---
+
+<div
+  class:list={['animate-section', className]}
+  style={`animation-delay: ${delay}s`}
+  data-delay={delay}
+>
+  <slot />
+</div>
+
+<script>
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const delay = parseFloat(entry.target.getAttribute('data-delay') || '0');
+          setTimeout(() => {
+            entry.target.classList.add('in-view');
+          }, delay * 1000);
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.1, rootMargin: '0px 0px -50px 0px' }
+  );
+
+  document.querySelectorAll('.animate-section').forEach((el) => {
+    observer.observe(el);
+  });
+</script>
