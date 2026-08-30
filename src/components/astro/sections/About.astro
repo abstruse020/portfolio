@@ -12,7 +12,7 @@ import AnimatedSection from '../AnimatedSection.astro';
       <AnimatedSection delay={0.1}>
         <div class="aspect-square rounded-2xl bg-primary-200 dark:bg-primary-800 overflow-hidden">
           <img 
-            src="/images/profile.jpg" 
+            src={`${import.meta.env.BASE_URL}/images/profile.jpg`}
             alt="Profile" 
             class="w-full h-full object-cover"
             loading="lazy"
