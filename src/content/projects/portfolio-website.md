@@ -3,7 +3,7 @@ title: "Portfolio Website"
 description: "A minimalistic portfolio built with Astro, React, and Tailwind CSS"
 tags: ["astro", "react", "tailwind", "portfolio"]
 github: "https://github.com/abstruse020/portfolio"
-live: "https://yourusername.github.io"
+live: "https://abstruse020.github.io/portfolio/"
 featured: true
 order: 1
 ---
