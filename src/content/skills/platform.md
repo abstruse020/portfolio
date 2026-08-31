@@ -1,6 +1,6 @@
 ---
 category: "Cloud & Platforms"
-items: ["Google Cloud Platform", "Arch Linux"]
+items: ["Google Cloud Platform", "Linux"]
 icon: "cloud"
 order: 8
 ---
