@@ -4,8 +4,8 @@ description: "A minimalistic portfolio built with Astro, React, and Tailwind CSS
 tags: ["astro", "react", "tailwind", "portfolio"]
 github: "https://github.com/abstruse020/portfolio"
 live: "https://abstruse020.github.io/portfolio/"
-featured: true
-order: 1
+featured: false
+order: 6
 ---
 
 This portfolio website showcases my work and skills with a clean, minimalistic design. Built using modern web technologies for optimal performance and developer experience.

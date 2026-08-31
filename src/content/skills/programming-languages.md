@@ -1,6 +1,6 @@
 ---
 category: "Programming Languages"
-items: ["JavaScript", "TypeScript", "Python", "Rust", "Go"]
+items: ["Python", "C/C++", "Java", "SQL", "JavaScript", "HTML/CSS"]
 icon: "code"
 order: 1
 ---
