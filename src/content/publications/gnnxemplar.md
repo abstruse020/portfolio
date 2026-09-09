@@ -1,7 +1,7 @@
 ---
 title: "Gnnxemplar: Exemplars to explanations-natural language rules for global GNN interpretability"
 authors: "B Armgaan, E Jain, H Pandey, M Chandran, S Ranu"
-journal: "NeurIPS"
+journal: "NeurIPS (Oral)"
 year: 2025
 doi: "10.52202/085713-2440"
 tags: ["GNN Explainability", "Natural Language Explanation", "Explainability"]
