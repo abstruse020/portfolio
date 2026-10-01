@@ -3,7 +3,7 @@ title: "Machine learning-based prediction of heavy metal leaching efficiency fro
 authors: "Partha Pratim Mondal, Harsh Panday, Bradley Martin Guy, Soniya Dhiman, Shaikh Ziauddin Ahammad, Rohan Jain"
 journal: "Chemical Engineering Journal: Green and Sustainable"
 year: 2026
-doi: "10.52202/085713-2440"
+doi: "10.1016/j.cejgas.2026.100122"
 tags: ["Hydrometallurgical leaching", "Machine learning", "Critical metals", "Gallium and germanium recovery"]
 order: 4
 ---
